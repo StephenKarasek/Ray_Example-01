@@ -1,0 +1,22 @@
+services:
+  autoreportgenerator:
+    image: 665577950062.dkr.ecr.us-east-1.amazonaws.com/ray-example:latest
+    build: .
+    ports: 
+    - 8000:8080
+    container_name: ray-example
+
+    # Comment lines 7-8 out when running!
+    #entrypoint: ["/bin/sh","-c"]
+    #command: [ "tail -f /dev/null"]
+    
+    environment:
+      #license_key: $license_key
+      AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+      AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+      # AWS_SESSION_TOKEN: $AWS_SESSION_TOKEN
+    volumes:
+    - ./tmp:/tmp
+    - ./app:/app
+    #- ./cadex_license.py:/app/cadex_license.py
+    

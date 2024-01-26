@@ -1,0 +1,7 @@
+AWS_info.txt
+.env
+llm
+*.bin
+
+
+*.gguf
