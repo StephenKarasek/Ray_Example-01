@@ -1,0 +1,49 @@
+
+#python=3.10
+
+requests
+fastapi
+
+ray[serve, data, tune]
+openai
+vllm
+
+
+#"skypilot[aws]""
+
+
+#********************
+# AWS 
+#----------
+boto3
+awscli
+sagemaker
+#sagemaker-training
+#sagemaker-experiments
+#s3
+#amazon-linux-extras
+
+#catboost # ML algorithm
+#datasets[s3]
+
+
+#********************
+# Maachine Learning
+#----------
+torch
+ctransformers
+accelerate #>=0.16.0
+transformers #>=4.26.0
+bitsandbytes
+#tqdm
+#peft
+#trl
+
+starlette
+
+
+#********************
+# Web App
+#----------
+#fastapi
+#flask==2.3.3

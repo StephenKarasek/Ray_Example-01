@@ -26,11 +26,8 @@ docker build --no-cache -t ray-example .
 
 
 
-
 # Tutorial
 https://www.anyscale.com/blog/a-comprehensive-guide-for-building-rag-based-llm-applications-part-1
-
-
 
 
 

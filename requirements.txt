@@ -1,15 +1,55 @@
 
 #python=3.10
 
-requests
-fastapi
 
-ray[serve]
-openai
+#********************
+# Ray (ML-ops Framework)
+#----------
+#ray[serve]
+#ray[data,train,tune,serve]
+# For reinforcement learning support, install RLlib instead.
+# pip install -U "ray[rllib]"
+
+##"skypilot[aws]""
 vllm
 
 
-#"skypilot[aws]""
+
+#********************
+# Machine Learning
+#----------
+#torch
+#ctransformers
+#accelerate #>=0.16.0
+#transformers #>=4.26.0
+#bitsandbytes
+
+
+#openai
+
+##tqdm
+##peft
+##trl
+##catboost # ML algorithm
+
+
+
+
+#********************
+# Web App
+#----------
+fastapi
+requests
+
+### PROBLEMS INSTALLLING ###
+#   --> logging     
+#   --> asyncio
+
+
+#flask==2.3.3
+
+#queue
+#starlette
 
 
 #********************
@@ -22,28 +62,4 @@ sagemaker
 #sagemaker-experiments
 #s3
 #amazon-linux-extras
-
-#catboost # ML algorithm
 #datasets[s3]
-
-
-#********************
-# Maachine Learning
-#----------
-torch
-ctransformers
-accelerate #>=0.16.0
-transformers #>=4.26.0
-bitsandbytes
-#tqdm
-#peft
-#trl
-
-starlette
-
-
-#********************
-# Web App
-#----------
-#fastapi
-#flask==2.3.3
