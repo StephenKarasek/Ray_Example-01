@@ -1,6 +1,12 @@
 #   #   #   #   #   #   #   #   #
 #   #      Ray Example      #   #
 #   #   #   #   #   #   #   #   #
+# LLM application (Build & Host)
+https://www.anyscale.com/blog/a-comprehensive-guide-for-building-rag-based-llm-applications-part-1
+# Read PDFs from S3
+https://www.anyscale.com/blog/turbocharge-langchain-now-guide-to-20x-faster-embedding
+#   +   +   +   +   +   +   +   +   +   +   +   +   +   +
+
 
 # Login to AWS / Docker
 aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 665577950062.dkr.ecr.us-east-1.amazonaws.com
@@ -25,10 +31,6 @@ docker build -t localbuild:ray-example .
 docker build --no-cache -t ray-example .
 
 
-
-
-# Tutorial
-https://www.anyscale.com/blog/a-comprehensive-guide-for-building-rag-based-llm-applications-part-1
 
 
 
