@@ -9,6 +9,7 @@
 #ray[data,train,tune,serve]
 # For reinforcement learning support, install RLlib instead.
 # pip install -U "ray[rllib]"
+# conda run pip install "ray[data,train,tune,serve]"
 
 ##"skypilot[aws]""
 vllm
