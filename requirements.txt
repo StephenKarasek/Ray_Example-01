@@ -12,7 +12,7 @@
 # conda run pip install "ray[data,train,tune,serve]"
 
 ##"skypilot[aws]""
-vllm
+#vllm
 
 
 

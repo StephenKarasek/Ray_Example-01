@@ -8,6 +8,10 @@ prompt = "Q: What is the distance from earth to mars? A:"
 model_path = "./models/mistral-7b-instruct-v0.1.Q2_K.gguf"
 #model_path = "./models/mistral-7b-instruct-v0.1.Q8_0.gguf"
 
+def s3_cp():
+    # copy from S3 bucket to local
+    # wait for transfer
+    return []
 
 def run_model(model_path="mistral-7b-instruct-v0.1.Q2_K.gguf"):
     '''

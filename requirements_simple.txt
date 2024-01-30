@@ -1,0 +1,19 @@
+
+python=3.9
+
+ray
+ray[serve, core]
+
+requests
+fastapi
+
+
+
+Faker==18.13.0
+
+
+#********************
+# Web App
+#----------
+#fastapi
+#flask==2.3.3

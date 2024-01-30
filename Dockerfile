@@ -73,7 +73,7 @@ FROM install-core as install-env
 
 #   -   -   -   -
 # Version = 12.1
-RUN pip install -U torch --index-url https://download.pytorch.org/whl/cu121
+#RUN pip install -U torch --index-url https://download.pytorch.org/whl/cu121
 
 #   *   *   *   *   *   *   *   *
 # Ray install
